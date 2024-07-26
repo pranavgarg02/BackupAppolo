@@ -1,0 +1,457 @@
+FIELDS IN TABLE,TABLE NAME,CAN BE USED IN USECASES 
+company,crpf_location,"USECASE 1 , 2"
+event_id,crpf_location,"USECASE 1 , 2"
+id,crpf_location,"USECASE 1 , 2"
+lat,crpf_location,"USECASE 1 , 2"
+location,crpf_location,"USECASE 1 , 2"
+log,crpf_location,"USECASE 1 , 2"
+,,
+approval_flag_batallion,daily_incident_report,
+approval_flag_bop,daily_incident_report,
+approval_flag_border_pillar,daily_incident_report,
+approval_flag_company,daily_incident_report,
+approval_flag_frontier,daily_incident_report,
+approval_flag_hq,daily_incident_report,
+approval_flag_sector,daily_incident_report,
+created_by,daily_incident_report,
+credibility_of_Information,daily_incident_report,
+daily_incident_repo_id,daily_incident_report,
+date,daily_incident_report,
+Description,daily_incident_report,
+details_of_incident,daily_incident_report,
+file_path,daily_incident_report,
+gpsco_ordinates,daily_incident_report,
+ifurgent,daily_incident_report,
+image_path,daily_incident_report,
+merged,daily_incident_report,
+merger_id,daily_incident_report,
+place_of_incident,daily_incident_report,
+reliability,daily_incident_report,
+remarks_battalion,daily_incident_report,
+remarks_bop,daily_incident_report,
+remarks_border_pillar,daily_incident_report,
+remarks_company,daily_incident_report,
+remarks_frontier,daily_incident_report,
+remarks_of_officer_hq,daily_incident_report,
+remarks_sector,daily_incident_report,
+report_id,daily_incident_report,
+source,daily_incident_report,
+subject,daily_incident_report,
+video_path,daily_incident_report,
+,,
+created_at,eventfir,
+createdby,eventfir,
+event_id,eventfir,
+fir_id,eventfir,
+remarks,eventfir,
+sno,eventfir,
+updated_at,eventfir,
+updatedby,eventfir,
+,,
+aiming_point_used,eventied,USECASE 5 ONLY
+container_of_ied,eventied,USECASE 5 ONLY
+created_at,eventied,USECASE 5 ONLY
+created_by,eventied,USECASE 5 ONLY
+depth_of_burial,eventied,USECASE 5 ONLY
+desc_of_crator,eventied,USECASE 5 ONLY
+desc_of_spikes,eventied,USECASE 5 ONLY
+device_used_rx,eventied,USECASE 5 ONLY
+device_used_tx,eventied,USECASE 5 ONLY
+dimensions_of_creator,eventied,USECASE 5 ONLY
+distance_from_camp,eventied,USECASE 5 ONLY
+distance_from_camp_spike,eventied,USECASE 5 ONLY
+distanct_from_ied,eventied,USECASE 5 ONLY
+event_id,eventied,USECASE 5 ONLY
+ied_date_time,eventied,USECASE 5 ONLY
+ied_details,eventied,USECASE 5 ONLY
+ied_district,eventied,USECASE 5 ONLY
+ied_id,eventied,USECASE 5 ONLY
+ied_latitude,eventied,USECASE 5 ONLY
+ied_location,eventied,USECASE 5 ONLY
+ied_longitude,eventied,USECASE 5 ONLY
+ied_mode_of_detection,eventied,USECASE 5 ONLY
+ied_police_station,eventied,USECASE 5 ONLY
+ied_position,eventied,USECASE 5 ONLY
+ied_recovered_from,eventied,USECASE 5 ONLY
+ied_residual_item,eventied,USECASE 5 ONLY
+ied_state,eventied,USECASE 5 ONLY
+ied_status,eventied,USECASE 5 ONLY
+length_ied_wire,eventied,USECASE 5 ONLY
+length_of_wire,eventied,USECASE 5 ONLY
+mechanism_of_ied,eventied,USECASE 5 ONLY
+mode_disposal_of_ied,eventied,USECASE 5 ONLY
+no_of_ied,eventied,USECASE 5 ONLY
+no_of_spikes,eventied,USECASE 5 ONLY
+pattern_of_placcement,eventied,USECASE 5 ONLY
+quantity_of_ied,eventied,USECASE 5 ONLY
+sharpnels_used,eventied,USECASE 5 ONLY
+sno,eventied,USECASE 5 ONLY
+type_of_aligment,eventied,USECASE 5 ONLY
+type_of_detonator,eventied,USECASE 5 ONLY
+type_of_explosive,eventied,USECASE 5 ONLY
+type_of_terrain,eventied,USECASE 5 ONLY
+updated_at,eventied,USECASE 5 ONLY
+updated_by,eventied,USECASE 5 ONLY
+,,
+any_action_taken,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+any_ir,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+any_ops_launched,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+breed_of_k9,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+created_at,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+created_by,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+created_by_unit,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+date_time_of_rgs,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+description,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+district,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+duration_of_operation_days,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+duration_of_operation_night,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+enemy_commander,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+enemy_strength_range,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+event_datetime,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+event_id,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+event_irla_number,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+eventplace,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+eventrelatedto,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+eventsubtype,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+eventtype,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+grade,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+handler_irla_no,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+if_rgs_informed_crd,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+incident_end_time,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+incident_start_time,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+informationsource,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+infotype,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+input_shared,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+ir_id,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+is_approved,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_asst_handler_f_name,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_asst_handler_f_no,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_handler_f_name,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_handler_f_no,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_id,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+k9_name,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+latitude,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+longitude,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+numberoftroops,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+ops_plan_id,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+org_sub_zone,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+organization,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+othertypeofduty,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+party_id,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+police_station,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+priority,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+ready_to_approve,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+ready_to_approve_date,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+remarks,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+reporttype,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+rgs_force_number,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+rgs_name,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+rgs_rank,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+sister_agency,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+sno,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+sourceid,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+state,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+subject,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+theatre,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+typeofduty,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+typeofincident,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+typeofinput,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+updated_at,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+updated_by,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+viewed,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+whether_event_based_on_any_opsplan,events,THIS TABLE IS NEEDED AND WILL BE USED IN EVERY USECASE
+,,
+address1,eventvictim,
+address2,eventvictim,
+compensationpaid,eventvictim,
+contact,eventvictim,
+country,eventvictim,
+created_at,eventvictim,
+createdby,eventvictim,
+details,eventvictim,
+district,eventvictim,
+dob,eventvictim,
+event_id,eventvictim,
+fathername,eventvictim,
+gender,eventvictim,
+is_dead_body_disposed,eventvictim,
+is_medical_aid_provided,eventvictim,
+isdeadorinjured,eventvictim,
+maritalstatus,eventvictim,
+name,eventvictim,
+nationality,eventvictim,
+nickname,eventvictim,
+occupation,eventvictim,
+reason,eventvictim,
+religion,eventvictim,
+remarks,eventvictim,
+sno,eventvictim,
+state,eventvictim,
+updated_at,eventvictim,
+updatedby,eventvictim,
+victim_doj,eventvictim,
+victim_financial_assistance,eventvictim,
+victim_financial_assistance_value,eventvictim,
+victim_irla,eventvictim,
+victim_nok,eventvictim,
+victim_post_mortem,eventvictim,
+victim_rank,eventvictim,
+victim_type,eventvictim,
+victim_unit,eventvictim,
+zipcode,eventvictim,
+,,
+created_at,fir,USECASE
+created_by_unit,fir,
+createdby,fir,
+description,fir,
+fir_copy,fir,
+fir_id,fir,
+firdate,fir,
+firnumber,fir,
+firplace,fir,
+ioname,fir,
+ionumber,fir,
+policestation,fir,
+pos_district,fir,
+pos_state,fir,
+status,fir,
+typeofcrime,fir,
+undersection,fir,
+updated_at,fir,
+updatedby,fir,
+viewed,fir,
+warrented_address,fir,
+warrented_age,fir,
+warrented_cast,fir,
+warrented_father,fir,
+warrented_issue_date,fir,
+warrented_name,fir,
+warrented_ration,fir,
+,,
+created_at,firstatus,
+createdby,firstatus,
+fir_id,firstatus,
+remarks,firstatus,
+sno,firstatus,
+status,firstatus,
+updated_at,firstatus,
+updatedby,firstatus,
+,,
+agency_innvolved,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+aiming_point_used,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+approved_at,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+approved_by,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+approved_fromationtype,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+container_of_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+created_at,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+created_by,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+created_by_unit,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+depth_of_burial,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+desc_circuit,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+desc_marking,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+desc_of_crator,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+desc_of_spikes,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+desc_targetarea,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+device_used_rx,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+device_used_tx,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+dimensions_of_creator,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+distance_from_camp,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+distance_from_camp_spike,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+distanct_from_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_date_time,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_details,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_district,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_id,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_latitude,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_location,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_longitude,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_mode_of_detection,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_police_station,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_position,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_recovered_from,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_residual_item,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_state,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_status,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+ied_time,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+is_approved,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+length_ied_wire,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+length_of_wire,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+mechanism_of_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+mode_disposal_of_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+no_of_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+no_of_spikes,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+pattern_of_placcement,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+quantity_of_ied,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+sharpnels_used,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+type_of_aligment,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+type_of_detonator,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+type_of_explosive,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+type_of_terrain,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+updated_at,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+updated_by,ied,"USECASE 3 , 4 AND CAN BE USED IN USECASE 5 ALSO"
+,,
+p_id,person,
+aadhar_no,person,
+address,person,
+address1,person,
+age,person,
+agency_innvolved,person,
+alias,person,
+arrested_on,person,
+attachment_file_type,person,
+beard,person,
+birthplace,person,
+build_type,person,
+caste,person,
+category,person,
+chin,person,
+complexion,person,
+created_at,person,
+created_by,person,
+created_by_unit,person,
+deformity,person,
+details_of_attachment,person,
+distance_between_eyes,person,
+district,person,
+dob,person,
+ears,person,
+edu_qualification,person,
+emailaddress,person,
+eye_brows_thickness,person,
+eye_brows_type,person,
+eye_colour,person,
+eye_meeting,person,
+face_shape,person,
+fathername,person,
+fingers,person,
+forcenumber,person,
+gender,person,
+grade,person,
+hair_colour,person,
+height,person,
+identification_marks,person,
+is_approved,person,
+latitude,person,
+lips,person,
+longitude,person,
+mouth,person,
+mustache,person,
+name,person,
+nationality,person,
+nose,person,
+org_sub_zone,person,
+orgname,person,
+other_mark,person,
+pannumber,person,
+pecularities,person,
+person_of_interest,person,
+person_of_intrst,person,
+phonenumber,person,
+pincode,person,
+postoffice,person,
+profile_status,person,
+profile_status_date,person,
+rank,person,
+ration_card_no,person,
+ready_to_approve,person,
+ready_to_approve_date,person,
+reason_for_monitoring,person,
+religion,person,
+remark,person,
+reward,person,
+sno,person,
+specialhabbit,person,
+state,person,
+status,person,
+tehsil,person,
+theatre,person,
+updated_at,person,
+updated_by,person,
+url,person,
+viewed,person,
+village,person,
+voter_card_no,person,
+wepon_held,person,
+,,
+caste,village,
+company,village,
+created_at,village,
+created_by,village,
+crime_profile_area,village,
+district,village,
+female_population,village,
+general_assesment,village,
+is_electrified,village,
+is_pro,village,
+languages,village,
+lat,village,
+lng,village,
+male_population,village,
+militancy_incidents,village,
+militant_sympathizers,village,
+mohalla_colony,village,
+number_of_houses_village,village,
+number_of_voters,village,
+other_business,village,
+police_station,village,
+range,village,
+religion,village,
+sector,village,
+sno,village,
+state,village,
+sub_division,village,
+tehsil_district,village,
+theatre,village,
+total_population,village,
+tribe,village,
+unit,village,
+updated_at,village,
+updated_by,village,
+village,village,
+zone,village,
+,,
+aadhar_card,village_member,
+address,village_member,
+age,village_member,
+any_previsous_encounter_in_the_house,village_member,
+created_at,village_member,
+created_by,village_member,
+family_members_settled_absoad,village_member,
+foreign_country_visit,village_member,
+house_no,village_member,
+lat,village_member,
+lng,village_member,
+member_type,village_member,
+mobile,village_member,
+name,village_member,
+operational_details_of_house,village_member,
+photo,village_member,
+remarks,village_member,
+sno,village_member,
+terror_links_of_family,village_member,
+updated_at,village_member,
+updated_by,village_member,
+village_id,village_member,
+,,
+active_since_of_ogw,village_ogw_information,
+address_of_ogw,village_ogw_information,
+affiliation_of_ogw,village_ogw_information,
+age_of_ogw,village_ogw_information,
+anti_national_activities,village_ogw_information,
+created_at,village_ogw_information,
+created_by,village_ogw_information,
+name_of_ogw,village_ogw_information,
+profession_of_ogw,village_ogw_information,
+sno,village_ogw_information,
+type,village_ogw_information,
+updated_at,village_ogw_information,
+updated_by,village_ogw_information,
+village_id,village_ogw_information,
+,,
+sno,person_fir,USECASE 14
+  p_id,person_fir,USECASE 14
+  fir_id,person_fir,USECASE 14
+  createdby,person_fir,USECASE 14
+  created_at,person_fir,USECASE 14
+  updatedby,person_fir,USECASE 14
+  updated_at,,

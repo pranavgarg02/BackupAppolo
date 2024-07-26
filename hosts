@@ -1,0 +1,155 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+192.168.1.6  meeting-dev.apps.ocp4.pacosta.com
+192.168.1.6  kafka-dev.apps.ocp4.pacosta.com
+192.168.1.6  minio-dev.apps.ocp4.pacosta.com
+192.168.1.6  gateway-dev.apps.ocp4.pacosta.com
+192.168.1.6  frontend-dev.apps.ocp4.pacosta.com
+192.168.1.6  consul-dev.apps.ocp4.pacosta.com 
+192.168.1.6  gateway-test.apps.ocp4.pacosta.com
+
+192.168.1.6 oauth-openshift.apps.ocp4.pacosta.com
+192.168.1.6  console-openshift-console.apps.ocp4.pacosta.com
+
+192.168.1.6    annexure-dev.apps.ocp4.pacosta.com     
+192.168.1.6    annotation-dev.apps.ocp4.pacosta.com   
+192.168.1.6    apm-server-dev.apps.ocp4.pacosta.com   
+192.168.1.6    auth-dev.apps.ocp4.pacosta.com         
+192.168.1.6    consul-dev.apps.ocp4.pacosta.com       
+192.168.1.6    elasticsearch-dev.apps.ocp4.pacosta.com
+192.168.1.6    forward-dev.apps.ocp4.pacosta.com      
+192.168.1.6    frontend-dev.apps.ocp4.pacosta.com     
+192.168.1.6    gateway-dev.apps.ocp4.pacosta.com      
+192.168.1.6    helpdesk-dev.apps.ocp4.pacosta.com     
+192.168.1.6    history-dev.apps.ocp4.pacosta.com      
+192.168.1.6    hrm-dev.apps.ocp4.pacosta.com          
+192.168.1.6    kafka-dev.apps.ocp4.pacosta.com   
+192.168.1.6    gitlab1-default.apps.ocp4.pacosta.com     
+192.168.1.6    jenkins-default.apps.ocp4.pacosta.com
+192.168.1.6    keycloak-dev.apps.ocp4.pacosta.com     
+192.168.1.6    kibana-dev.apps.ocp4.pacosta.com       
+192.168.1.6    merge-dev.apps.ocp4.pacosta.com        
+192.168.1.6    minio-minio-dev.apps.ocp4.pacosta.com          
+192.168.1.6    notification-dev.apps.ocp4.pacosta.com 
+192.168.1.6    pa-dev.apps.ocp4.pacosta.com           
+192.168.1.6    pc-dev.apps.ocp4.pacosta.com           
+192.168.1.6    personal-dev.apps.ocp4.pacosta.com     
+192.168.1.6    pf-dev.apps.ocp4.pacosta.com           
+192.168.1.6    retrieval-dev.apps.ocp4.pacosta.com    
+192.168.1.6    sau-dev.apps.ocp4.pacosta.com          
+192.168.1.6    send-dev.apps.ocp4.pacosta.com         
+192.168.1.6    sf-dev.apps.ocp4.pacosta.com           
+192.168.1.6    sign-dev.apps.ocp4.pacosta.com         
+192.168.1.6    socket-dev.apps.ocp4.pacosta.com       
+192.168.1.6    user-dev.apps.ocp4.pacosta.com         
+192.168.1.6    util-dev.apps.ocp4.pacosta.com         
+192.168.1.6    zookeeper-dev.apps.ocp4.pacosta.com 
+192.168.1.6    consul-dev.apps.ocp4.pacosta.com
+192.168.1.6    prometheus-k8s-federate-openshift-monitoring.apps.ocp4.pacosta.com
+192.168.1.6    consul-dev.apps.ocp4.pacosta.com
+192.168.1.6    keycloak1-dev.apps.ocp4.pacosta.com 
+
+
+
+192.168.1.6  meeting-test.apps.ocp4.pacosta.com
+192.168.1.6  kafka-test.apps.ocp4.pacosta.com
+192.168.1.6  minio-test.apps.ocp4.pacosta.com
+192.168.1.6  gateway-test.apps.ocp4.pacosta.com
+192.168.1.6  frontend-test.apps.ocp4.pacosta.com
+192.168.1.6  consul-test.apps.ocp4.pacosta.com
+192.168.1.6  gateway-test.apps.ocp4.pacosta.com
+
+192.168.1.6 frontend-vendor-vendor.apps.ocp4.pacosta.com
+
+192.168.1.6  oauth-openshift.apps.ocp4.pacosta.com
+192.168.1.6  console-openshift-console.apps.ocp4.pacosta.com
+192.168.1.6    annexure-test.apps.ocp4.pacosta.com     
+192.168.1.6    annotation-test.apps.ocp4.pacosta.com   
+192.168.1.6    apm-server-test.apps.ocp4.pacosta.com   
+192.168.1.6    auth-test.apps.ocp4.pacosta.com            
+192.168.1.6    elasticsearch-test.apps.ocp4.pacosta.com
+192.168.1.6    forward-test.apps.ocp4.pacosta.com      
+192.168.1.6    frontend-test.apps.ocp4.pacosta.com    
+192.168.1.6    helpdesk-test.apps.ocp4.pacosta.com     
+192.168.1.6    history-test.apps.ocp4.pacosta.com      
+192.168.1.6    hrm-test.apps.ocp4.pacosta.com          
+192.168.1.6    kafka-test.apps.ocp4.pacosta.com   
+192.168.1.6    gitlab1-default.apps.ocp4.pacosta.com     
+192.168.1.6    jenkins-default.apps.ocp4.pacosta.com
+192.168.1.6    keycloak-test.apps.ocp4.pacosta.com     
+192.168.1.6    kibana-test.apps.ocp4.pacosta.com       
+192.168.1.6    merge-test.apps.ocp4.pacosta.com        
+192.168.1.6    minio-minio-test.apps.ocp4.pacosta.com          
+192.168.1.6    notification-test.apps.ocp4.pacosta.com 
+192.168.1.6    pa-test.apps.ocp4.pacosta.com           
+192.168.1.6    pc-test.apps.ocp4.pacosta.com           
+192.168.1.6    personal-test.apps.ocp4.pacosta.com     
+192.168.1.6    pf-test.apps.ocp4.pacosta.com           
+192.168.1.6    retrieval-test.apps.ocp4.pacosta.com    
+192.168.1.6    sau-test.apps.ocp4.pacosta.com          
+192.168.1.6    send-test.apps.ocp4.pacosta.com         
+192.168.1.6    sf-test.apps.ocp4.pacosta.com           
+192.168.1.6    sign-test.apps.ocp4.pacosta.com         
+192.168.1.6    socket-test.apps.ocp4.pacosta.com       
+192.168.1.6    user-test.apps.ocp4.pacosta.com         
+192.168.1.6    util-test.apps.ocp4.pacosta.com         
+192.168.1.6    zookeeper-test.apps.ocp4.pacosta.com 
+192.168.1.6    prometheus-k8s-federate-openshift-monitoring.apps.ocp4.pacosta.com
+192.168.1.6    keycloak1-test.apps.ocp4.pacosta.com 
+
+192.168.1.6    mongo-test.apps.ocp4.pacosta.com
+
+
+192.168.1.6  keycloak1-admin-dashboard.apps.ocp4.pacosta.com 
+192.168.1.6  keycloak-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  kafka-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  minio-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  gateway-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  frontend-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  consul-admin-dashboard.apps.ocp4.pacosta.com  
+192.168.1.6  gateway-admin-dashboard.apps.ocp4.pacosta.com 
+192.168.1.6  zookeeper-admin-dashboard.apps.ocp4.pacosta.com 
+192.168.1.6  admin-portal-admin-dashboard.apps.ocp4.pacosta.com 
+
+192.168.1.6  frontend-crm.apps.ocp4.pacosta.com
+192.168.1.6  frontend-rti.apps.ocp4.pacosta.com
+192.168.1.6  minio-rti.apps.ocp4.pacosta.com
+
+192.168.1.6  dms-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  frontenddms-admin-dashboard.apps.ocp4.pacosta.com
+
+
+192.168.1.6  minio-kms.apps.ocp4.pacosta.com
+
+192.168.1.6  mongo-express-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  mongo-express-test.apps.ocp4.pacosta.com
+192.168.1.6  kibana-default.apps.ocp4.pacosta.com
+192.168.1.6  elasticsearch-default.apps.ocp4.pacosta.com
+192.168.1.6  elasticsearchdefault-default.apps.ocp4.pacosta.com
+192.168.1.6  elasticsearchdefault-service.default.svc.cluster.local
+192.168.1.6  sonarqube-default.apps.ocp4.pacosta.com
+
+192.168.1.6  consul.default.svc.cluster.local
+192.168.1.6  kibanadms-admin-dashboard.apps.ocp4.pacosta.com
+192.168.1.6  minionew-test.apps.ocp4.pacosta.com
+192.168.1.6  frontend-eoffice-test.apps.ocp4.pacosta.com

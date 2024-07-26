@@ -1,0 +1,15 @@
+server:
+  port: 8083
+  
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: SongDataUser
+          uri: http://localhost:8081/
+          predicates :
+            - Path=/songs/** 
+        - id: MetaDataUser
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/user/**
